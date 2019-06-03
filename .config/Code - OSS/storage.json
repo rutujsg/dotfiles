@@ -2,9 +2,13 @@
     "telemetry.machineId": "77f35418027e851a07610432aa3955b8a837faef1650c2f5e4c13876e2e28d94",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/rutujsg/Documents/LaTeX/Test",
             "file:///hdd/Documents/Big%20G/big_g/IAS%20Abstract"
         ],
-        "files2": []
+        "files2": [
+            "file:///home/rutujsg/Documents/LaTeX/Test/test.dvi",
+            "file:///home/rutujsg/Documents/LaTeX/Test/test.tex"
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -49,13 +53,49 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/hdd/Documents/Big G/big_g/IAS Abstract",
+                                        "fsPath": "/home/rutujsg/Documents/LaTeX/Test",
+                                        "external": "file:///home/rutujsg/Documents/LaTeX/Test",
+                                        "path": "/home/rutujsg/Documents/LaTeX/Test",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/LaTeX/Test"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///hdd/Documents/Big%20G/big_g/IAS%20Abstract",
                                         "path": "/hdd/Documents/Big G/big_g/IAS Abstract",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "/hdd/Documents/Big G/big_g/IAS Abstract"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Documents/LaTeX/Test/test.dvi",
+                                        "path": "/home/rutujsg/Documents/LaTeX/Test/test.dvi",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/LaTeX/Test/test.dvi"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Documents/LaTeX/Test/test.tex",
+                                        "path": "/home/rutujsg/Documents/LaTeX/Test/test.tex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/LaTeX/Test/test.tex"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -539,7 +579,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1362,20 +1403,20 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#2d2a2e",
+    "themeBackground": "#1b222b",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///hdd/Documents/Big%20G/big_g/IAS%20Abstract",
-            "backupPath": "/home/rutujsg/.config/Code - OSS/Backups/41f248235b241f0cf35d9a1555906d72",
+            "folder": "file:///home/rutujsg/Documents/LaTeX/Test",
+            "backupPath": "/home/rutujsg/.config/Code - OSS/Backups/a7e5f40c306df82e6882fbbcf927a09c",
             "uiState": {
                 "mode": 1,
-                "x": 968,
+                "x": 1448,
                 "y": 41,
-                "width": 939,
+                "width": 459,
                 "height": 1026
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/hdd/Documents/Big G/big_g"
+    "pickerWorkingDir": "/home/rutujsg/Documents/LaTeX"
 }

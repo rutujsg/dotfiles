@@ -1,0 +1,42 @@
+[2019-06-03 23:35:00.354] [exthost] [info] extension host started
+[2019-06-03 23:35:00.527] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:00.527] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2019-06-03 23:35:00.593] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:00.593] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/emmet/dist/extension
+[2019-06-03 23:35:00.639] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:00.639] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/git/dist/main
+[2019-06-03 23:35:00.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:00.809] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/merge-conflict/dist/extension
+[2019-06-03 23:35:00.868] [exthost] [info] ExtensionService#_doActivateExtension cmschuetz12.wal {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:00.868] [exthost] [info] ExtensionService#loadCommonJSModule /home/rutujsg/.vscode-oss/extensions/cmschuetz12.wal-0.1.0/out/extension
+[2019-06-03 23:35:01.577] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:01.577] [exthost] [info] ExtensionService#loadCommonJSModule /home/rutujsg/.vscode-oss/extensions/vscodevim.vim-1.8.1/out/extension
+[2019-06-03 23:35:07.360] [exthost] [info] eager extensions activated
+[2019-06-03 23:35:08.101] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-03 23:35:08.101] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/configuration-editing/dist/extension
+[2019-06-03 23:35:08.367] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-03 23:35:08.367] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/json-language-features/client/dist/jsonMain
+[2019-06-03 23:35:08.519] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-03 23:35:08.519] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/typescript-language-features/dist/extension
+[2019-06-03 23:35:46.261] [exthost] [info] extension host started
+[2019-06-03 23:35:46.282] [exthost] [info] ExtensionService#_doActivateExtension James-Yu.latex-workshop {"startup":false,"activationEvent":"onLanguage:latex"}
+[2019-06-03 23:35:46.282] [exthost] [info] ExtensionService#loadCommonJSModule /home/rutujsg/.vscode-oss/extensions/james-yu.latex-workshop-7.0.0/out/src/main.js
+[2019-06-03 23:35:46.747] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:46.747] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2019-06-03 23:35:46.756] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:46.756] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/emmet/dist/extension
+[2019-06-03 23:35:46.774] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:46.774] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/git/dist/main
+[2019-06-03 23:35:46.843] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:46.843] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/merge-conflict/dist/extension
+[2019-06-03 23:35:46.848] [exthost] [info] ExtensionService#_doActivateExtension cmschuetz12.wal {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:46.848] [exthost] [info] ExtensionService#loadCommonJSModule /home/rutujsg/.vscode-oss/extensions/cmschuetz12.wal-0.1.0/out/extension
+[2019-06-03 23:35:46.869] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-06-03 23:35:46.869] [exthost] [info] ExtensionService#loadCommonJSModule /home/rutujsg/.vscode-oss/extensions/vscodevim.vim-1.8.1/out/extension
+[2019-06-03 23:35:47.127] [exthost] [info] eager extensions activated
+[2019-06-03 23:35:51.591] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-03 23:35:51.591] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/configuration-editing/dist/extension
+[2019-06-03 23:35:51.596] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-03 23:35:51.596] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/json-language-features/client/dist/jsonMain
+[2019-06-03 23:35:51.644] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-06-03 23:35:51.644] [exthost] [info] ExtensionService#loadCommonJSModule /usr/lib/code/extensions/typescript-language-features/dist/extension

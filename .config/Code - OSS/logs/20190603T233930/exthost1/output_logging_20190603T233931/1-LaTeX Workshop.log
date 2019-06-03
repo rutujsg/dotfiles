@@ -1,0 +1,11 @@
+[23:39:31] Initializing LaTeX Workshop.
+[23:39:31] Creating LaTeX Workshop http and websocket server.
+[23:39:31] LaTeX Workshop initialized.
+[23:39:31] Found root file from active editor: /home/rutujsg/Documents/LaTeX/Test/test.tex
+[23:39:32] Root file changed from: undefined. Find all dependencies.
+[23:39:32] Instantiating a new file watcher for /home/rutujsg/Documents/LaTeX/Test/test.tex
+[23:39:32] Parsing /home/rutujsg/Documents/LaTeX/Test/test.tex
+[23:39:32] Cannot find file /home/rutujsg/Documents/LaTeX/Test/test.fls
+[23:39:32] Server created on 127.0.0.1:38353
+[23:39:32] Snippet data loaded.
+[23:39:32] LaTeX Workshop version: 7.0.0

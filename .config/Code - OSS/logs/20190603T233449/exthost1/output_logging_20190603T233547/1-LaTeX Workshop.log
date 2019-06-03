@@ -1,0 +1,15 @@
+[23:35:47] Initializing LaTeX Workshop.
+[23:35:48] Creating LaTeX Workshop http and websocket server.
+[23:35:48] LaTeX Workshop initialized.
+[23:35:48] Found root file from active editor: /home/rutujsg/Documents/LaTeX/Test/test.tex
+[23:35:51] Root file changed from: undefined. Find all dependencies.
+[23:35:51] Instantiating a new file watcher for /home/rutujsg/Documents/LaTeX/Test/test.tex
+[23:35:51] Parsing /home/rutujsg/Documents/LaTeX/Test/test.tex
+[23:35:51] Cannot find file /home/rutujsg/Documents/LaTeX/Test/test.fls
+[23:35:51] Server created on 127.0.0.1:41223
+[23:35:51] Snippet data loaded.
+[23:35:51] LaTeX Workshop version: 7.0.0
+[23:36:08] VIEW command invoked.
+[23:36:08] Found root file from active editor: /home/rutujsg/Documents/LaTeX/Test/test.tex
+[23:36:08] Root file remains unchanged from: /home/rutujsg/Documents/LaTeX/Test/test.tex.
+[23:36:08] Open external viewer for /home/rutujsg/Documents/LaTeX/Test/test.pdf
