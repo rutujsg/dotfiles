@@ -1,0 +1,21 @@
+#!/bin/bash
+FOREGROUND=$(xrdb -query | grep 'color6:'| awk 'NR==1{print $NF}')
+
+ROFI_OPTIONS=(-theme $HOME/.config/rofi/rofi_full -font "Monoisome 16" -m 0 -fullscreen 0 -theme-str "*{accent: $FOREGROUND;}")
+
+another=$(echo "home
+classwork" | awk '{print $(NF-1)}' | rofi "${ROFI_OPTIONS[@]}" -dmenu -i -p "search: ")
+
+
+if [ "$another" == "home" ] ; then
+	find /home/rutujsg | rofi "${ROFI_OPTIONS[@]}" -threads 0 -dmenu -i -p 'locate:' | xargs -r -0 xdg-open;
+
+elif [ "$another" == "classwork" ] ; then
+	find /hdd/Documents/Classwork | rofi "${ROFI_OPTIONS[@]}" -threads 0 -dmenu -i -p 'locate:' | xargs -r -0 xdg-open;
+
+else
+    echo $another
+fi
+
+
+

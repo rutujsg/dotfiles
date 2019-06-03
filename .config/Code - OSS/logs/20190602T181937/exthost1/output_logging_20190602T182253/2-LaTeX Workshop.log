@@ -1,0 +1,27 @@
+[18:22:53] Initializing LaTeX Workshop.
+[18:22:53] Creating LaTeX Workshop http and websocket server.
+[18:22:54] LaTeX Workshop initialized.
+[18:22:54] Found root file from active editor: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[18:23:12] Root file changed from: undefined. Find all dependencies.
+[18:23:12] Instantiating a new file watcher for /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[18:23:12] Parsing /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[18:23:12] Parsing /hdd/Documents/Big G/big_g/IAS Abstract/abstract.fls to compute dependencies
+[18:23:12] Server created on 127.0.0.1:35373
+[18:23:12] LaTeX Workshop version: 7.0.0
+[18:23:13] BUILD command invoked.
+[18:23:13] Found root file from active editor: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[18:23:13] Root file remains unchanged from: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex.
+[18:23:13] Building root file: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[18:23:13] Snippet data loaded.
+[18:23:13] Build root file /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[18:23:13] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/hdd/Documents/Big G/big_g/IAS Abstract,/hdd/Documents/Big G/big_g/IAS Abstract/abstract
+[18:23:13] LaTeX build process spawned. PID: 18592.
+[18:23:18] VIEW command invoked.
+[18:23:18] Found root file from active editor: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[18:23:18] Root file remains unchanged from: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex.
+[18:23:18] Open external viewer for /hdd/Documents/Big G/big_g/IAS Abstract/abstract.pdf
+[18:23:29] LaTeX log parsed with 2 messages.
+[18:23:30] Recipe of length 1 finished. PID: 18592.
+[18:23:30] Successfully built /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex.
+[18:23:30] No PDF viewer connected for /hdd/Documents/Big G/big_g/IAS Abstract/abstract.pdf
+[18:23:30] Parsing /hdd/Documents/Big G/big_g/IAS Abstract/abstract.fls to compute dependencies

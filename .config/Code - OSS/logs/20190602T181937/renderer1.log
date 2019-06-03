@@ -1,0 +1,6 @@
+[2019-06-02 18:22:05.974] [renderer1] [error] Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.: Error: Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.
+    at T.reject (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4177:718)
+    at t.resource.resolveModelReference.then.n (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4180:964)
+[2019-06-02 18:22:53.107] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/hdd/Documents/Big G/big_g/IAS Abstract/.vscode'
+[2019-06-02 18:23:02.396] [renderer1] [warning] UNRESPONSIVE extension host, 'James-Yu.latex-workshop' took 100% of 5171.475ms, saved PROFILE here: '/tmp/exthost-c16989.cpuprofile' [{"id":"gc","total":4866,"percentage":0},{"id":"James-Yu.latex-workshop","total":5166280,"percentage":100}]
+[2019-06-02 18:23:03.829] [renderer1] [error] Server returned 422
