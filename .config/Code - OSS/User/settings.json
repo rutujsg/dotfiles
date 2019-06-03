@@ -287,9 +287,9 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
-    "workbench.colorTheme": "Wal",
+    "workbench.colorTheme": "Monokai Pro",
     "latex-workshop.view.pdf.viewer": "external",
-    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "workbench.iconTheme": "Monokai Pro Icons",
     "editor.tokenColorCustomizations": {
         "[Wal]": {
             "textMateRules": [
@@ -1407,13 +1407,22 @@
     "editor.lineNumbers": "relative",
     "vim.camelCaseMotion.enable": true,
     "vim.sneak": true,
-    "vim.startInInsertMode": true,
-    "vim.statusBarColorControl": true,
     "vim.useSystemClipboard": true,
     "vim.visualstar": true,
     "latex-workshop.intellisense.citation.label": "title",
     "latex-workshop.intellisense.package.enabled": true,
     "latex-workshop.intellisense.unimathsymbols.enabled": true,
     "latex-workshop.latex.autoClean.run": "onBuilt",
-    "workbench.activityBar.visible": false
+    "latex-workshop.view.pdf.external.command":
+    {
+        "command": "zth",
+        "args": [
+            "%PDF%"
+        ]
+    } ,
+    "workbench.activityBar.visible": true,
+    "vim.statusBarColorControl": true,
+    "workbench.sideBar.location": "left",
+    "window.menuBarVisibility": "toggle"
+
 }

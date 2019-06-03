@@ -369,7 +369,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleActivityBarVisibility",
-                                    "label": "Show &&Activity Bar"
+                                    "label": "Hide &&Activity Bar"
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
@@ -1362,16 +1362,16 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#0d131b",
+    "themeBackground": "#2d2a2e",
     "windowsState": {
         "lastActiveWindow": {
             "folder": "file:///hdd/Documents/Big%20G/big_g/IAS%20Abstract",
             "backupPath": "/home/rutujsg/.config/Code - OSS/Backups/41f248235b241f0cf35d9a1555906d72",
             "uiState": {
                 "mode": 1,
-                "x": 1448,
+                "x": 968,
                 "y": 41,
-                "width": 459,
+                "width": 939,
                 "height": 1026
             }
         },

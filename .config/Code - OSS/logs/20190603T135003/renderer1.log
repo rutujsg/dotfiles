@@ -1,0 +1,19 @@
+[2019-06-03 13:50:04.996] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/hdd/Documents/Big G/big_g/IAS Abstract/.vscode'
+[2019-06-03 13:50:53.299] [renderer1] [error] Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.: Error: Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.
+    at T.reject (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4177:718)
+    at t.resource.resolveModelReference.then.n (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4180:964)
+[2019-06-03 13:51:28.404] [renderer1] [error] Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.: Error: Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.
+    at T.reject (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4177:718)
+    at t.resource.resolveModelReference.then.n (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4180:964)
+[2019-06-03 13:51:30.387] [renderer1] [error] Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.: Error: Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.
+    at T.reject (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4177:718)
+    at t.resource.resolveModelReference.then.n (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4180:964)
+[2019-06-03 13:52:57.479] [renderer1] [error] Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.: Error: Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.
+    at T.reject (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4177:718)
+    at t.resource.resolveModelReference.then.n (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4180:964)
+[2019-06-03 13:55:05.863] [renderer1] [error] Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.: Error: Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.
+    at T.reject (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4177:718)
+    at t.resource.resolveModelReference.then.n (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4180:964)
+[2019-06-03 13:55:06.975] [renderer1] [error] Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.: Error: Unable to write into user settings because the file is dirty. Please save the user settings file first and then try again.
+    at T.reject (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4177:718)
+    at t.resource.resolveModelReference.then.n (file:///usr/lib/code/out/vs/workbench/workbench.main.js:4180:964)

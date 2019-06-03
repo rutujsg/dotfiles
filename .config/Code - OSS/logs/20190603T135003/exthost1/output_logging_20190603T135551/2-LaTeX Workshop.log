@@ -1,0 +1,30 @@
+[13:55:51] Initializing LaTeX Workshop.
+[13:55:51] Creating LaTeX Workshop http and websocket server.
+[13:55:51] LaTeX Workshop initialized.
+[13:55:52] Server created on 127.0.0.1:37637
+[13:55:52] Snippet data loaded.
+[13:55:52] LaTeX Workshop version: 7.0.0
+[13:55:53] Try root file in root directory: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[13:55:53] Parsing /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[13:55:53] Parsing /hdd/Documents/Big G/big_g/IAS Abstract/abstract.fls to compute dependencies
+[14:01:53] Try root file in root directory: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[14:01:53] Parsing /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[14:01:53] Parsing /hdd/Documents/Big G/big_g/IAS Abstract/abstract.fls to compute dependencies
+[14:02:08] Found root file from active editor: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[14:02:08] Root file changed from: undefined. Find all dependencies.
+[14:02:08] Instantiating a new file watcher for /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[14:02:08] Parsing /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[14:02:08] Parsing /hdd/Documents/Big G/big_g/IAS Abstract/abstract.fls to compute dependencies
+[14:02:14] BUILD command invoked.
+[14:02:14] Found root file from active editor: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[14:02:14] Root file remains unchanged from: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex.
+[14:02:14] Building root file: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[14:02:14] Build root file /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[14:02:14] Recipe step 1: latexmk, -synctex=1,-interaction=nonstopmode,-file-line-error,-pdf,-outdir=/hdd/Documents/Big G/big_g/IAS Abstract,/hdd/Documents/Big G/big_g/IAS Abstract/abstract
+[14:02:14] LaTeX build process spawned. PID: 6577.
+[14:02:14] Recipe of length 1 finished. PID: 6577.
+[14:02:14] Successfully built /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex.
+[14:02:20] VIEW command invoked.
+[14:02:20] Found root file from active editor: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex
+[14:02:20] Root file remains unchanged from: /hdd/Documents/Big G/big_g/IAS Abstract/abstract.tex.
+[14:02:20] Open external viewer for /hdd/Documents/Big G/big_g/IAS Abstract/abstract.pdf
