@@ -1,0 +1,225 @@
+;==========================================================
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;                config by Rutuj Gavankar
+;
+;
+;                github.com/rutujsg/dotfiles
+;          
+;          
+;
+;          
+;
+;
+;==========================================================
+
+[colors]
+background = #66000000
+background-alt = #222
+foreground = #fafafa
+foreground-alt = #666666
+
+
+[utils]
+# You will need to configure these lines for some modules works
+netinterface = wlp2s0
+
+# To see the adapter and battery, execute this command ->   ls /sys/class/power_supply/ -1
+adapter = ACAD
+battery = BAT1
+
+
+[bar/top]
+width = 100%
+height = 28
+
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+border = 0
+
+padding-left = 2
+padding-right = 1
+
+module-margin-left = 0
+module-margin-right = 2
+
+font-0 = Hack Nerd Font:pixelsize=10;2
+font-1 = Cantarell:size=12;2
+font-2 = Hack Nerd Font:pixelsize=11:weight=bold;2
+font-3 = Cantarell:pixelsize=11:weight=140;2
+font-4 = MesloLGLDZ Nerd Font:pixelsize=12;2
+font-5 = Weather Icons:size=11:weight=bold;2
+font-6 = MesloLGLDZ Nerd Font:pixelsize=10;2
+font-7 = FuraMono Nerd Font:pixelsize=12;2
+
+line-size = 2
+
+modules-left = i3 title
+modules-center = music 
+modules-right = battery network weather date settings
+
+tray-position = right
+tray-padding = 2
+
+scroll-up = i3wm-wsnext
+scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+
+#### if you want the workspace indicator, customize this
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+label-focused = %name%
+label-focused-font = 7
+label-focused-padding = 2
+
+label-unfocused = 
+label-unfocused-padding = 0
+
+label-visible = 
+label-visible-padding = ${self.label-unfocused-padding}
+
+label-urgent = %name%
+
+
+[module/date]
+type = internal/date
+interval = 1.0
+date = %a %b %d, 
+time = %H:%M
+date-alt = %A, %d %B %Y
+time-alt = %H:%M:%S
+label = %date% %time%
+format = <label>
+format-foreground = ${colors.foreground}
+
+#module for network display
+[module/network]
+type = internal/network
+interface = ${utils.netinterface}
+interval = 3.0
+
+format-connected = <label-connected>
+label-connected-font= 7
+label-connected =  %local_ip% 
+
+format-disconnected = <label-disconnected>
+label-disconnected-font = 7
+label-disconnected = 睊
+
+[module/music]
+format-prefix="%{T1}%{T-} "
+type = custom/script
+exec = ~/polybar-scripts/spotify
+interval = 2
+tail = true
+click-left = exec spotify
+
+#module for volume display
+[module/alsa]
+type = internal/alsa
+
+format-volume = <ramp-volume>
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-font = 5
+label-muted = "ﱝ"
+label-muted-font = 5
+format-muted = <label-muted>
+
+
+[module/separator]
+type = custom/script
+exec = echo " | "
+
+[module/battery]
+type = internal/battery
+
+full-at = 99
+
+; Use the following commanto list batteries and adapters:
+$ ls -1 /sys/class/powerupply/
+battery = BAT1
+adapter = ACAD
+
+poll-interval = 5
+
+time-format = %H:%M
+
+format-charging = <animation-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+
+label-charging = 
+label-discharging = %percentage% %time% 
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+bar-capacity-width = 10
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+
+animation-charging-framerate = 750
+
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-3 = 
+animation-discharging-4 = 
+
+animation-discharging-framerate = 500
+
+label-font = 7
+
+[module/settings]
+type = custom/script
+exec = echo ""
+click-left = terminal -e 'bmenu'
+label-font = 7
+
+[module/search]
+type = custom/script
+
+click-left = xdg-open "https://www.google.com/search?q=$(rofi -dmenu -p 'Google:' -theme ~/.config/rofi/theme.rasi -lines -1)" &
+exec = echo ""
+
+
+[module/title]
+type = internal/xwindow
+
+format = <label>
+format-padding = 0
+
+label = %title:0:30:...%
+label-maxlen = 50
+label-font = 7
+
+label-empty = i3
+label-empty-font = 7
+
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 5
+margin-bottom = 0
