@@ -1,4 +1,17 @@
-# i3 config file (v4)
+#-------------------------------------------------------------------------------------
+#	______      _         _   _____                        _                     |
+#	| ___ \    | |       (_) |  __ \                      | |                    |
+#	| |_/ _   _| |_ _   _ _  | |  \/ __ ___   ____ _ _ __ | | ____ _ _ __        |
+#	|    | | | | __| | | | | | | __ / _` \ \ / / _` | '_ \| |/ / _` | '__|       |
+#	| |\ | |_| | |_| |_| | | | |_\ | (_| |\ V | (_| | | | |   | (_| | |          |
+#	\_| \_\__,_|\__|\__,_| |  \____/\__,_| \_/ \__,_|_| |_|_|\_\__,_|_|          |
+#			    _/ |                                                     |
+#			   |__/       i3-gapps config                                |        
+#                                                                                    |
+#                                                                                    |
+#-------------------------------------------------------------------------------------
+
+
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
 set $mod Mod4
@@ -45,10 +58,10 @@ bindsym $mod+z exec --no-startup-id morc_menu
 ################################################################################################
 
 exec --no-startup-id volumeicon
-#bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
-exec --no-startup-id pulseaudio
+bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
+#exec --no-startup-id pulseaudio
 #exec --no-startup-id pa-applet
-bindsym $mod+Ctrl+m exec pavucontrol
+#bindsym $mod+Ctrl+m exec pavucontrol
 
 ################################################################################################
 
@@ -274,7 +287,7 @@ mode "resize" {
 }
 
 # Lock screen
-bindsym $mod+9 exec --no-startup-id blurlock
+bindsym $mod+9 exec --no-startup-id dm-tool lock
 
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
@@ -284,7 +297,7 @@ exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
 # exec_always --no-startup-id sbxkb
-exec --no-startup-id xautolock -time 10 -locker blurlock
+exec --no-startup-id xautolock -time 10 -locker dm-tool lock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id ~/.config/polybar/launch.sh

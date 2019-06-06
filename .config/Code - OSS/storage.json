@@ -2,10 +2,14 @@
     "telemetry.machineId": "77f35418027e851a07610432aa3955b8a837faef1650c2f5e4c13876e2e28d94",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/rutujsg/Documents",
+            "file:///home/rutujsg/Julia/big_g",
             "file:///home/rutujsg/Documents/LaTeX/Test",
             "file:///hdd/Documents/Big%20G/big_g/IAS%20Abstract"
         ],
         "files2": [
+            "file:///home/rutujsg/Julia/big_g/pwd",
+            "file:///hdd/Documents/Classwork/2017_fall/CSCI%2023000/Cryptography%20-%20blackbelt.py",
             "file:///hdd/Documents/Classwork/2019_spring/PHYS%2034200/Final%20Project/main.tex",
             "file:///hdd/Documents/Classwork/2019_spring/PHYS%2034200/HW%201/hw1.tex",
             "file:///home/rutujsg/Documents/LaTeX/Test/test.tex",
@@ -55,6 +59,29 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "fsPath": "/home/rutujsg/Documents",
+                                        "external": "file:///home/rutujsg/Documents",
+                                        "path": "/home/rutujsg/Documents",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Julia/big_g",
+                                        "path": "/home/rutujsg/Julia/big_g",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Julia/big_g"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/rutujsg/Documents/LaTeX/Test",
                                         "path": "/home/rutujsg/Documents/LaTeX/Test",
                                         "scheme": "file"
@@ -75,6 +102,28 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Julia/big_g/pwd",
+                                        "path": "/home/rutujsg/Julia/big_g/pwd",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Julia/big_g/pwd"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///hdd/Documents/Classwork/2017_fall/CSCI%2023000/Cryptography%20-%20blackbelt.py",
+                                        "path": "/hdd/Documents/Classwork/2017_fall/CSCI 23000/Cryptography - blackbelt.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/hdd/Documents/Classwork/2017_fall/CSCI 23000/Cryptography - blackbelt.py"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -228,8 +277,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -1428,19 +1476,20 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#0a060f",
+    "themeBackground": "#0f0200",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/rutujsg/.config/Code - OSS/Backups/1559753963333",
+            "folder": "file:///home/rutujsg/Documents",
+            "backupPath": "/home/rutujsg/.config/Code - OSS/Backups/5f9a5c227168819ef6ac20957a9f49e7",
             "uiState": {
                 "mode": 1,
-                "x": 13,
+                "x": 1288,
                 "y": 41,
-                "width": 939,
+                "width": 619,
                 "height": 1026
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/rutujsg/Documents/LaTeX"
+    "pickerWorkingDir": "/home/rutujsg/Julia"
 }

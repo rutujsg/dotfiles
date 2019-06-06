@@ -1,16 +1,26 @@
-#
-# ~/.bashrc
+#	______      _         _   _____                        _              
+#	| ___ \    | |       (_) |  __ \                      | |             
+#	| |_/ _   _| |_ _   _ _  | |  \/ __ ___   ____ _ _ __ | | ____ _ _ __ 
+#	|    | | | | __| | | | | | | __ / _` \ \ / / _` | '_ \| |/ / _` | '__|
+#	| |\ | |_| | |_| |_| | | | |_\ | (_| |\ V | (_| | | | |   | (_| | |   
+#	\_| \_\__,_|\__|\__,_| |  \____/\__,_| \_/ \__,_|_| |_|_|\_\__,_|_|   
+#			    _/ |                                              
+#			   |__/                                               
+#				 ~/.bashrc
 #
 
 [[ $- != *i* ]] && return
 
+
+#------------------------------------
+#	Colours and Looks	    |	
+#------------------------------------
 
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
 # ( ) # Hide shell job control messages.
 (cat ~/.cache/wal/sequences &)
 
-set -o vi
 
 colors() {
 	local fgc bgc vals seq0
@@ -98,11 +108,8 @@ fi
 
 unset use_color safe_term match_lhs sh
 
-alias cp="cp -i"                          # confirm before overwriting something
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
-alias np='nano -w PKGBUILD'
-alias more=less
+# better yaourt colors
+export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
 
 xhost +local:root > /dev/null 2>&1
 
@@ -121,7 +128,12 @@ shopt -s expand_aliases
 # Enable history appending instead of overwriting.  #139609
 shopt -s histappend
 
-#
+#------------------------------------------
+#	Functions and Mods 		  |
+#------------------------------------------
+
+set -o vi   # VIM MODE FOR BASH
+
 # # ex - archive extractor
 # # usage: ex <file>
 ex ()
@@ -146,10 +158,18 @@ ex ()
   fi
 }
 
-# better yaourt colors
-export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
+#---------------------------------------
+#		Aliases		       |
+#---------------------------------------
 
 # aliases
 
+alias cp="cp -i"				  # confirm before overwriting something
+alias df='df -h'				  # human-readable sizes
+alias free='free -m'				  # show sizes in MB
+alias np='nano -w PKGBUILD'
+alias more=less
 alias cw="cd ~/Documents/Classwork/; ls -A"
 alias dl="cd /hdd/Downloads/; ls"
+alias cs='cd "$@" && ls'  		  	  # cs = cd + ls
+
