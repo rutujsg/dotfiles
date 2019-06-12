@@ -368,7 +368,7 @@ smart_gaps on
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
 smart_borders on
 
-# for_window [class="^.*"] border pixel 3.5
+for_window [class="^.*"] border pixel 2.5
 
 
 
