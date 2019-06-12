@@ -57,17 +57,17 @@ XTerm*selectToClipboard: true
 Xcursor.theme: xcursor-breeze
 Xcursor.size:                     0
 
-URxvt*font:            xft:FuraMono Nerd Font:regular:size=12
-URxvt*imFont:          xft:FuraMono Nerd Font:regular:size=12
-URxvt*boldFont:        xft:FuraMono Nerd Font:bold:size=12
-URxvt*italicFont:      xft:FuraMono Nerd Font:italic:size=12
-URxvt*boldItalicFont: xft:FuraMono Nerd Font:bold:italic:size=12
+URxvt*font:            xft:SauceCodePro Nerd Font:regular:size=12
+URxvt*imFont:          xft:SauceCodePro Nerd Font:regular:size=12
+URxvt*boldFont:        xft:SauceCodePro Nerd Font:bold:size=12
+URxvt*italicFont:      xft:SauceCodePro Nerd Font:italic:size=12
+URxvt*boldItalicFont: xft:SauceCodePro Nerd Font:bold:italic:size=12
 
 ! alternative font settings with 'terminus':
 ! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
 ! URxvt.bold.font: -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
 !! terminus names see end of file!
-
+URxvt*internalBorder:	          50
 URxvt.depth:                      32
 URxvt.background:                 [100]#222D31
 URxvt*scrollBar:                  false
@@ -95,6 +95,10 @@ URxvt.keysym.Control-Up:          \033[1;5A
 URxvt.keysym.Shift-Control-Up:    \033[1;6A
 URxvt.keysym.Control-Down:        \033[1;5B
 URxvt.keysym.Shift-Control-Down:  \033[1;6B
+! URxvt.perl-ext-common:  ...,resize-font,...
+
+
+
 ! Rxvt.perl-ext-common:             ...,clipboard
 ! URxvt.keysym.M-C-c:               perl:clipboard:copy
 ! URxvt.keysym.M-v:                 perl:clipboard:paste

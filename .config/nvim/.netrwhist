@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/rutujsg/.config/polybar'
+let g:netrw_dirhist_2='/home/rutujsg/polybar-scripts'
+let g:netrw_dirhist_3='/home/rutujsg/.config/nvim/plugged/wal'
+let g:netrw_dirhist_4='/home/rutujsg/.config/nvim/plugged/wal/autoload'

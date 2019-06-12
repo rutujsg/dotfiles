@@ -19,6 +19,7 @@
 ;==========================================================
 
 [colors]
+[colors]
 background = #66000000
 background-alt = #222
 foreground = #fafafa
@@ -57,13 +58,13 @@ font-3 = Cantarell:pixelsize=11:weight=140;2
 font-4 = MesloLGLDZ Nerd Font:pixelsize=12;2
 font-5 = Weather Icons:size=11:weight=bold;2
 font-6 = MesloLGLDZ Nerd Font:pixelsize=10;2
-font-7 = FuraMono Nerd Font:pixelsize=12;2
+font-7 = SauceCodePro Nerd Font:pixelsize=12;2
 
 line-size = 2
 
 modules-left = i3 title
 modules-center = music 
-modules-right = battery network weather date settings
+modules-right = cputemp battery network weather date settings
 
 tray-position = right
 tray-padding = 2
@@ -101,7 +102,7 @@ time = %H:%M
 date-alt = %A, %d %B %Y
 time-alt = %H:%M:%S
 label = %date% %time%
-format = <label>
+format =<label>
 format-foreground = ${colors.foreground}
 
 #module for network display
@@ -139,6 +140,12 @@ label-muted = "ﱝ"
 label-muted-font = 5
 format-muted = <label-muted>
 
+[module/cputemp]
+type = custom/script
+exec =  sensors | grep --max-count=1 "Package id 0" | awk '{print $4}' 
+interval = 10
+label = " %output%"
+format-foreground = ${colors.primary}
 
 [module/separator]
 type = custom/script

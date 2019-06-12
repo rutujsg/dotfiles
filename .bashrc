@@ -172,4 +172,5 @@ alias more=less
 alias cw="cd ~/Documents/Classwork/; ls -A"
 alias dl="cd /hdd/Downloads/; ls"
 alias cs='cd "$@" && ls'  		  	  # cs = cd + ls
-
+alias vim='nvim'
+alias clc='clear'

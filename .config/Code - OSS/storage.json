@@ -2,17 +2,24 @@
     "telemetry.machineId": "77f35418027e851a07610432aa3955b8a837faef1650c2f5e4c13876e2e28d94",
     "openedPathsList": {
         "workspaces3": [
-            "file:///home/rutujsg/Documents",
+            "file:///home/rutujsg/Documents/Big%20G/big_g/Correlation",
+            "file:///home/rutujsg/Documents/Classwork",
+            "file:///home/rutujsg/Documents/Classwork/2019_spring/ECE%2020200/HW%20-%20Frequency%20Response",
             "file:///home/rutujsg/Julia/big_g",
+            "file:///home/rutujsg/Documents",
             "file:///home/rutujsg/Documents/LaTeX/Test",
             "file:///hdd/Documents/Big%20G/big_g/IAS%20Abstract"
         ],
         "files2": [
+            "file:///home/rutujsg/Documents/LaTeX/Test/test.tex",
+            "file:///home/rutujsg/Documents/Classwork/2019_spring/PHYS%2034200/Final%20Project/main.tex",
+            "file:///home/rutujsg/Documents/Big%20G/big_g/IAS%20Abstract/Sources.bib",
+            "file:///home/rutujsg/Documents/Big%20G/big_g/IAS%20Abstract/abstract.tex",
+            "file:///home/rutujsg/Documents/Big%20G/big_g/UROP%20Proposal/proposal.tex",
             "file:///home/rutujsg/Julia/big_g/pwd",
             "file:///hdd/Documents/Classwork/2017_fall/CSCI%2023000/Cryptography%20-%20blackbelt.py",
             "file:///hdd/Documents/Classwork/2019_spring/PHYS%2034200/Final%20Project/main.tex",
             "file:///hdd/Documents/Classwork/2019_spring/PHYS%2034200/HW%201/hw1.tex",
-            "file:///home/rutujsg/Documents/LaTeX/Test/test.tex",
             "file:///home/rutujsg/Documents/LaTeX/Test/test.dvi"
         ]
     },
@@ -59,13 +66,35 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/rutujsg/Documents",
-                                        "external": "file:///home/rutujsg/Documents",
-                                        "path": "/home/rutujsg/Documents",
+                                        "fsPath": "/home/rutujsg/Documents/Big G/big_g/Correlation",
+                                        "external": "file:///home/rutujsg/Documents/Big%20G/big_g/Correlation",
+                                        "path": "/home/rutujsg/Documents/Big G/big_g/Correlation",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents"
+                                    "label": "~/Documents/Big G/big_g/Correlation"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Documents/Classwork",
+                                        "path": "/home/rutujsg/Documents/Classwork",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Classwork"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Documents/Classwork/2019_spring/ECE%2020200/HW%20-%20Frequency%20Response",
+                                        "path": "/home/rutujsg/Documents/Classwork/2019_spring/ECE 20200/HW - Frequency Response",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Classwork/2019_spring/ECE 20200/HW - Frequency Response"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -77,6 +106,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Julia/big_g"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Documents",
+                                        "path": "/home/rutujsg/Documents",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -102,6 +142,61 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Documents/LaTeX/Test/test.tex",
+                                        "path": "/home/rutujsg/Documents/LaTeX/Test/test.tex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/LaTeX/Test/test.tex"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Documents/Classwork/2019_spring/PHYS%2034200/Final%20Project/main.tex",
+                                        "path": "/home/rutujsg/Documents/Classwork/2019_spring/PHYS 34200/Final Project/main.tex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Classwork/2019_spring/PHYS 34200/Final Project/main.tex"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Documents/Big%20G/big_g/IAS%20Abstract/Sources.bib",
+                                        "path": "/home/rutujsg/Documents/Big G/big_g/IAS Abstract/Sources.bib",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Big G/big_g/IAS Abstract/Sources.bib"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Documents/Big%20G/big_g/IAS%20Abstract/abstract.tex",
+                                        "path": "/home/rutujsg/Documents/Big G/big_g/IAS Abstract/abstract.tex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Big G/big_g/IAS Abstract/abstract.tex"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/rutujsg/Documents/Big%20G/big_g/UROP%20Proposal/proposal.tex",
+                                        "path": "/home/rutujsg/Documents/Big G/big_g/UROP Proposal/proposal.tex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Big G/big_g/UROP Proposal/proposal.tex"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -146,17 +241,6 @@
                                     },
                                     "enabled": true,
                                     "label": "/hdd/Documents/Classwork/2019_spring/PHYS 34200/HW 1/hw1.tex"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/rutujsg/Documents/LaTeX/Test/test.tex",
-                                        "path": "/home/rutujsg/Documents/LaTeX/Test/test.tex",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/LaTeX/Test/test.tex"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -481,7 +565,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleActivityBarVisibility",
-                                    "label": "Hide &&Activity Bar"
+                                    "label": "Show &&Activity Bar"
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
@@ -652,8 +736,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1125,8 +1208,8 @@
                 "userSettingsLabel": "ctrl+k f"
             },
             "workbench.action.closeWindow": {
-                "label": "Ctrl+W",
-                "userSettingsLabel": "ctrl+w"
+                "label": "Ctrl+Shift+W",
+                "userSettingsLabel": "ctrl+shift+w"
             },
             "workbench.action.quit": {
                 "label": "Ctrl+Q",
@@ -1476,20 +1559,20 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#0f0200",
+    "themeBackground": "#1c111c",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/rutujsg/Documents",
-            "backupPath": "/home/rutujsg/.config/Code - OSS/Backups/5f9a5c227168819ef6ac20957a9f49e7",
+            "folder": "file:///home/rutujsg/Documents/Big%20G/big_g/Correlation",
+            "backupPath": "/home/rutujsg/.config/Code - OSS/Backups/b55ce3c3e11bd6693654b5c7f73da9ab",
             "uiState": {
                 "mode": 1,
-                "x": 1288,
-                "y": 41,
-                "width": 619,
-                "height": 1026
+                "x": 0,
+                "y": 28,
+                "width": 1920,
+                "height": 1052
             }
         },
         "openedWindows": []
     },
-    "pickerWorkingDir": "/home/rutujsg/Julia"
+    "pickerWorkingDir": "/home/rutujsg/Documents"
 }
