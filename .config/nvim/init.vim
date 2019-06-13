@@ -38,9 +38,11 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'Konfekt/FastFold'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
-Plug 'matze/vim-tex-fold'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'plasticboy/vim-markdown'
+Plug 'godlygeek/tabular'
+Plug 'vim-pandoc/vim-pandoc-syntax'
 call plug#end()
 
 "Pywal
@@ -97,22 +99,14 @@ call plug#end()
 	let g:tex_flavor='latex'
 	let g:vimtex_view_method='zathura'
 	let g:vimtex_quickfix_mode=0
-	set conceallevel=1
-	let g:tex_conceal='abdmg'
+"	set conceallevel=1
+"	let g:tex_conceal='abdmg'
 
 " Spell Check 
 	setlocal spell
 	set spelllang=en_us 
 	inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
-
 	
-" Vim-LaTeX rules for file compilation
-"	set grepprg=grep\ -nH\ $*
-"	filetype indent on
-"	let g:tex_flavor='latex'
-"	let g:Tex_MultipleCompileFormats = 'pdf'
-"	let g:Tex_DefaultTargetFormat='pdf'
-"	let g:Tex_CompileRule_pdf = "latexmk -pdflatex='pdflatex -file-line-error -synctex=1 -interaction=nonstopmode' -bibtex -pdf $*"
 " Ultisnips 
 	let g:UltiSnipsExpandTrigger = '<tab>'
 	let g:UltiSnipsJumpForwardTrigger = '<tab>'
@@ -121,3 +115,32 @@ call plug#end()
 	call deoplete#custom#var('omni', 'input_patterns', {
       \ 'tex': g:vimtex#re#deoplete
       \})
+
+
+" Pandoc + Markdown + LaTeX 
+	function s:MDSettings()
+	    inoremap <buffer> <Leader>n \note[item]{}<Esc>i
+	    noremap <buffer> <Leader>b :! pandoc -t beamer % -o %<.pdf<CR><CR>
+	    noremap <buffer> <Leader>ll :! pandoc --template='/home/rutujsg/scripts/template.tex'  -t latex % -o %<.pdf<CR>
+	    noremap <buffer> <Leader>lv :! zathura %<.pdf 2>&1 >/dev/null &<CR><CR>
+
+	    " adjust syntax highlighting for LaTeX parts
+	    "   inline formulas:
+	    syntax region Statement oneline matchgroup=Delimiter start="\$" end="\$"
+	    "   environments:
+	    syntax region Statement matchgroup=Delimiter start="\\begin{.*}" end="\\end{.*}" contains=Statement
+	    "   commands:
+	    syntax region Statement matchgroup=Delimiter start="{" end="}" contains=Statement
+	endfunction
+	let g:vim_markdown_math = 1
+	autocmd BufRead,BufNewFile *.md setfiletype markdown
+	autocmd FileType markdown :call <SID>MDSettings()
+
+" Vim Pandoc syntax 
+	augroup pandoc_syntax
+		au! BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
+	augroup END
+
+" LaTeX + Inkscape mapping
+	inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "'.b:vimtex.root.'/figures/"'<CR><CR>:w<CR>
+	nnoremap <C-f> : silent exec '!inkscape-figures edit "'.b:vimtex.root.'/figures/" > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>
