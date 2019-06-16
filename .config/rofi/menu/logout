@@ -3,19 +3,15 @@
 FOREGROUND=$(xrdb -query | grep 'color6:'| awk 'NR==1{print $NF}')
 ROFI_OPTIONS=(-theme $HOME/.config/rofi/rofi_full -font "Monoisome 16" -m 0 -fullscreen 0 -theme-str "*{accent: $FOREGROUND;}")
 
-another=$(echo "RELOAD
-LOCKWM
+another=$(echo "SUSPEND
+LOCK
 LOGOUT
 REBOOT
 POWOFF" | awk '{print $(NF-1)}' | rofi "${ROFI_OPTIONS[@]}" -dmenu -i -p "SYSTEM: ")
 
-if [ "$another" == "RELOAD" ] ; then
-	i3-msg reload;
-	i3-msg restart;
-	pkill -USR1 -x sxhkd;
-  bash ~/.startup -r;
-
-elif [ "$another" == "LOCKWM" ] ; then
+if [ "$another" == "SUSPEND" ] ; then
+	exec systemctl suspend
+elif [ "$another" == "LOCK" ] ; then
 	exec i3lock -c $FOREGROUND
 
 elif [ "$another" == "LOGOUT" ] ; then
