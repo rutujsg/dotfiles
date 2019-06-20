@@ -47,6 +47,7 @@ Plug 'mattn/calendar-vim'
 Plug 'vim-scripts/SyntaxRange'
 Plug 'godlygeek/tabular'
 Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'dhruvasagar/vim-table-mode'
 call plug#end()
 
 "Pywal
@@ -148,3 +149,21 @@ call plug#end()
 " LaTeX + Inkscape mapping
 	inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "'.b:vimtex.root.'/figures/"'<CR><CR>:w<CR>
 	nnoremap <C-f> : silent exec '!inkscape-figures edit "'.b:vimtex.root.'/figures/" > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>
+
+
+
+" Auto Install missing LaTeX packages
+command! InstallPackages call InstallPackages()
+
+  function! InstallPackages()
+      let winview = winsaveview()
+      call inputsave()
+      let cmd = ['tllocalmgr install']
+      %call add(cmd, matchstr(getline('.'),
+                  \ '\\usepackage\(\[.*\]\)\?{\zs.*\ze\}'))
+      echomsg join(cmd)
+      let pass = inputsecret('Enter sudo password:') . "\n"
+      echo system(join(cmd), pass)
+      call inputrestore()
+      call winrestview(winview)
+  endfunction

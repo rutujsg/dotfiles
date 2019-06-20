@@ -179,3 +179,5 @@ alias dl="cd /hdd/Downloads/; ls"
 alias cs='cd "$@" && ls'  		  	  # cs = cd + ls
 alias vim='nvim'
 alias clc='clear'
+alias gac='git add -A && git commit -m'
+
