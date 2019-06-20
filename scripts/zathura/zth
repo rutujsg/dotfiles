@@ -1,0 +1,4 @@
+#!/bin/bash
+FILEPATH=$(readlink -f "$1")
+genzathurarc > /home/rutujsg/.config/zathura/zathurarc
+zathura "$FILEPATH" &
